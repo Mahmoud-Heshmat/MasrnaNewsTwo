@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListPreference
+        android:defaultValue="@string/pref_selection_fahrenheit"
+        android:entries="@array/pref_selection_options"
+        android:entryValues="@array/pref_selection_values"
+        android:key="@string/pref_selection_key"
+        android:title="@string/pref_selection_label" />
+
+
+    <ListPreference
+        android:defaultValue="@string/pref_selection_place_Cairo"
+        android:entries="@array/pref_selection_place_options"
+        android:entryValues="@array/pref_selection_place_values"
+        android:key="@string/pref_selection_place_key"
+        android:title="@string/pref_selection_label_place" />
+
+</PreferenceScreen>

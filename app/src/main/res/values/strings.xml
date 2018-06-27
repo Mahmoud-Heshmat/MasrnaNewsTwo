@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">أخبار مصرنا</string>
+    <string name="facebook_app_id">222642751638370</string>
+    <string name="fb_login_protocol_scheme">fb222642751638370</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_category">category</string>
+    <string name="title_activity_category_">Category_Activity</string>
+    <string name="title_activity_details_">Details_Activity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_sharing">SharingActivity</string>
+    <string name="title_activity_youtube">YoutubeActivity</string>
+    <string name="title_activity_notification">إشعار</string>
+    <string name="title_activity_allnotifications">الإشعارات</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="buttom_banner_ad_unit_id">ca-app-pub-2664238069150772/6101650848</string>
+    <string name="buttom_native_ad_unit_id">ca-app-pub-2664238069150772/6223877943</string>
+
+    <string name="rate_app_title">تقييم التطبيق</string>
+    <string name="rate_app_message">برجاء تقييم التطبيق على جوجل بلاي</string>
+    <string name="dialog_app_rate">تقييم</string>
+    <string name="dialog_ask_later">لاحقا</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_selection_default" translatable="false">Celsius</string>
+    <string name="pref_selection_label">Select Unit</string>
+    <string name="pref_selection_label_fahrenheit">Fahrenheit</string>
+    <string name="pref_selection_label_celsius">Celsius</string>
+    <string name="pref_selection_key" translatable="false">Selection</string>
+    <string name="pref_selection_fahrenheit" translatable="false">Fahrenheit</string>
+    <string name="pref_selection_celsius" translatable="false">Celsius</string>
+    <string name="pref_selection_default_place" translatable="false">Cairo</string>
+    <string name="pref_selection_label_place">Select Your Place</string>
+    <string name="pref_selection_place_key" translatable="false">Place Selection</string>
+
+    <string name="pref_selection_label_place_Alexandria">Alexandria</string>
+    <string name="pref_selection_place_Alexandria" translatable="false">Alexandria</string>
+
+    <string name="pref_selection_label_place_Cairo">Cairo</string>
+    <string name="pref_selection_place_Cairo" translatable="false">Cairo</string>
+
+    <string name="pref_selection_label_place_Asswan">Asswan</string>
+    <string name="pref_selection_place_Asswan" translatable="false">Asswan</string>
+
+    <string name="pref_selection_label_place_Asyut">Asyut</string>
+    <string name="pref_selection_place_Asyut" translatable="false">Asyut</string>
+
+    <string name="pref_selection_label_place_Baharia">Baharia</string>
+    <string name="pref_selection_place_Baharia" translatable="false">Baharia</string>
+
+    <string name="pref_selection_label_place_Damanhour">Damanhour</string>
+    <string name="pref_selection_place_Damanhour" translatable="false">Damanhour</string>
+
+    <string name="pref_selection_label_place_ElFayoum">El Fayoum</string>
+    <string name="pref_selection_place_ElFayoum" translatable="false">El Fayoum</string>
+
+    <string name="pref_selection_label_place_ElGiza">El-Giza</string>
+    <string name="pref_selection_place_ElGiza" translatable="false">El-Giza</string>
+
+    <string name="pref_selection_label_place_Helwan">Helwan</string>
+    <string name="pref_selection_place_Helwan" translatable="false">Helwan</string>
+
+    <string name="pref_selection_label_place_Hurghada">Hurghada</string>
+    <string name="pref_selection_place_Hurghada" translatable="false">Hurghada</string>
+
+    <string name="pref_selection_label_place_Ismailia">Ismailia</string>
+    <string name="pref_selection_place_Ismailia" translatable="false">Ismailia</string>
+
+    <string name="pref_selection_label_place_Luxor">Luxor</string>
+    <string name="pref_selection_place_Luxor" translatable="false">Luxor</string>
+
+    <string name="pref_selection_label_place_MersaMatruh">Mersa Matruh</string>
+    <string name="pref_selection_place_MersaMatruh" translatable="false">Mersa Matruh</string>
+
+    <string name="pref_selection_label_place_PortSaid">Port Said</string>
+    <string name="pref_selection_place_PortSaid" translatable="false">Port Said</string>
+
+    <string name="pref_selection_label_place_Qena">Qena</string>
+    <string name="pref_selection_place_Qena" translatable="false">Qena</string>
+
+    <string name="pref_selection_label_place_RasSedr">Ras Sedr</string>
+    <string name="pref_selection_place_RasSedr" translatable="false">Ras Sedr</string>
+
+    <string name="pref_selection_label_place_Sharkelouinat">Shark-el-ouinat</string>
+    <string name="pref_selection_place_Sharkelouinat" translatable="false">Shark-el-ouinat</string>
+
+    <string name="pref_selection_label_place_SharmElSheikh">Sharm El Sheikh</string>
+    <string name="pref_selection_place_SharmElSheikh" translatable="false">Sharm El Sheikh</string>
+
+    <string name="pref_selection_label_place_Siwa">Siwa</string>
+    <string name="pref_selection_place_Siwa" translatable="false">Siwa</string>
+
+    <string name="pref_selection_label_place_Taba">Taba</string>
+    <string name="pref_selection_place_Taba" translatable="false">Taba</string>
+
+    <string name="pref_selection_label_place_WadiElNatroon">Wadi El Natroon</string>
+    <string name="pref_selection_place_WadiElNatroon" translatable="false">Wadi El Natroon</string>
+
+    <string name="pref_selection_label_place_Zagazig">Zagazig</string>
+    <string name="pref_selection_place_Zagazig" translatable="false">Zagazig</string>
+
+</resources>

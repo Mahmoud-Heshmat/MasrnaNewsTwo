@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "697651473156",
+    "firebase_url": "https://masrnanewstwo.firebaseio.com",
+    "project_id": "masrnanewstwo",
+    "storage_bucket": "masrnanewstwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697651473156:android:d976e255f1c87bda",
+        "android_client_info": {
+          "package_name": "com.y2m.masrnanewstwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697651473156-0485aupmji566lrptmjn9dcq1k9viio3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0jPO5qzsz9yDjEuJ8VsQBqJRKpxdvBes"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

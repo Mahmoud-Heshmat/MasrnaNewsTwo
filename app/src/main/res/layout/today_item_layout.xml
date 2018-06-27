@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:background="#edf54257">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#FFFFFF"
+            android:text="Today,29 March"/>
+
+        <TextView
+            android:id="@+id/high"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#FFFFFF"
+            android:text="24 "/>
+
+        <TextView
+            android:id="@+id/low"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_marginLeft="8dp"
+            android:text="12"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|bottom">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_cloudy"/>
+        <TextView
+            android:id="@+id/conditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:text="Partly Cloudy"/>
+    </LinearLayout>
+</LinearLayout>

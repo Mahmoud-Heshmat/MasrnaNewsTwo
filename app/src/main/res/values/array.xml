@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="pref_selection_options">
+        <item>@string/pref_selection_label_fahrenheit</item>
+        <item>@string/pref_selection_label_celsius</item>
+    </string-array>
+    <string-array name="pref_selection_values">
+        <item>@string/pref_selection_fahrenheit</item>
+        <item>@string/pref_selection_celsius</item>
+    </string-array>
+
+
+    <string-array name="pref_selection_place_options">
+        <item>@string/pref_selection_label_place_Cairo</item>
+        <item>@string/pref_selection_label_place_Alexandria</item>
+        <item>@string/pref_selection_label_place_Asswan</item>
+        <item>@string/pref_selection_label_place_Asyut</item>
+        <item>@string/pref_selection_label_place_Baharia</item>
+        <item>@string/pref_selection_label_place_Damanhour</item>
+        <item>@string/pref_selection_label_place_ElFayoum</item>
+        <item>@string/pref_selection_label_place_ElGiza</item>
+        <item>@string/pref_selection_label_place_Helwan</item>
+        <item>@string/pref_selection_label_place_Hurghada</item>
+        <item>@string/pref_selection_label_place_Ismailia</item>
+        <item>@string/pref_selection_label_place_Luxor</item>
+        <item>@string/pref_selection_label_place_MersaMatruh</item>
+        <item>@string/pref_selection_label_place_PortSaid</item>
+        <item>@string/pref_selection_label_place_Qena</item>
+        <item>@string/pref_selection_label_place_RasSedr</item>
+        <item>@string/pref_selection_label_place_Sharkelouinat</item>
+        <item>@string/pref_selection_label_place_SharmElSheikh</item>
+        <item>@string/pref_selection_label_place_Siwa</item>
+        <item>@string/pref_selection_label_place_Taba</item>
+        <item>@string/pref_selection_label_place_WadiElNatroon</item>
+        <item>@string/pref_selection_label_place_Zagazig</item>
+    </string-array>
+
+    <string-array name="pref_selection_place_values">
+        <item>@string/pref_selection_place_Cairo</item>
+        <item>@string/pref_selection_place_Alexandria</item>
+        <item>@string/pref_selection_place_Asswan</item>
+        <item>@string/pref_selection_place_Asyut</item>
+        <item>@string/pref_selection_place_Baharia</item>
+        <item>@string/pref_selection_place_Damanhour</item>
+        <item>@string/pref_selection_place_ElFayoum</item>
+        <item>@string/pref_selection_place_ElGiza</item>
+        <item>@string/pref_selection_place_Helwan</item>
+        <item>@string/pref_selection_place_Hurghada</item>
+        <item>@string/pref_selection_place_Ismailia</item>
+        <item>@string/pref_selection_place_Luxor</item>
+        <item>@string/pref_selection_place_MersaMatruh</item>
+        <item>@string/pref_selection_place_PortSaid</item>
+        <item>@string/pref_selection_place_Qena</item>
+        <item>@string/pref_selection_place_RasSedr</item>
+        <item>@string/pref_selection_place_Sharkelouinat</item>
+        <item>@string/pref_selection_place_SharmElSheikh</item>
+        <item>@string/pref_selection_place_Siwa</item>
+        <item>@string/pref_selection_place_Taba</item>
+        <item>@string/pref_selection_place_WadiElNatroon</item>
+        <item>@string/pref_selection_place_Zagazig</item>
+    </string-array>
+</resources>

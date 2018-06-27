@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="menu_width">200dp</dimen>
+    <dimen name="menu_top_hight">180dp</dimen>
+</resources>

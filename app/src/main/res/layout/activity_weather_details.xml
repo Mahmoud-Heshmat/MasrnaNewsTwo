@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#edffa8a9"
+    tools:context=".WeatherDetailsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/adView"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:gravity="center_vertical"
+            android:layout_gravity="left"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#fdfa7d7d"
+            >
+
+            <LinearLayout
+                android:background="#ebff575d"
+                android:gravity="center_vertical"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                <!-- Header: Day, Date -->
+                <TextView
+                    android:id="@+id/day_detail_day_textview"
+                    android:text="Today Monday"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:fontFamily="sans-serif-condensed"
+                    android:id="@+id/day_detail_date_textview"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="1 Marsh"
+                    android:textColor="#646464"
+                    android:textSize="16sp" />
+
+                <!-- Main content: high, low, art, weather state -->
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/day_detail_high_textview"
+                            android:text="10"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            android:id="@+id/day_detail_low_textview"
+                            android:text="5"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#646464"
+                            android:textSize="40sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/day_detail_icon"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:scaleType="center"/>
+
+                        <TextView
+                            android:id="@+id/day_detail_forecast_textview"
+                            android:layout_width="wrap_content"
+                            android:text="Clear"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:textColor="#646464" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Humidity, wind, pressure -->
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/day_fcttext_metric"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Sunny with gusty winds. High 78F. Winds NE at 20 to 30 mph."
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#ebff575d"
+                android:gravity="center_vertical"
+                android:layout_gravity="left"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:padding="10dp">
+
+                <!-- Header: Day, Date -->
+                <TextView
+                    android:id="@+id/detail_day_textview"
+                    android:text="Today Monday"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/detail_date_textview"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="1 Marsh"
+                    android:textColor="#646464"
+                    android:textSize="16sp" />
+                <!-- Main content: high, low, art, weather state -->
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="left"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/detail_high_textview"
+                            android:text="10"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textSize="50sp" />
+
+                        <TextView
+                            android:id="@+id/detail_low_textview"
+                            android:text="5"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#646464"
+                            android:textSize="40sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:gravity="center_horizontal"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/detail_icon"
+                            android:layout_width="100dp"
+                            android:scaleType="center"
+                            android:layout_height="100dp" />
+
+                        <TextView
+                            android:id="@+id/detail_forecast_textview"
+                            android:layout_width="wrap_content"
+                            android:text="Clear"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:textColor="#646464" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Humidity, wind, pressure -->
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/fcttext_metric"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Sunny with gusty winds. High 78F. Winds NE at 20 to 30 mph."
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="LARGE_BANNER"
+        ads:adUnitId="@string/buttom_banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
